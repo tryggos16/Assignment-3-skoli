@@ -1,6 +1,7 @@
 import "dart:io";
 
 void main() {
+  // s2. DONE
   print("what number do you want to multiply? ");
   int input = int.parse(stdin.readLineSync());
 
@@ -9,4 +10,5 @@ void main() {
     print("$input * $i = " + sum.toString());
 
   }
+
 }

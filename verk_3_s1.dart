@@ -5,6 +5,6 @@ void main() {
     i = i + preNum;
     preNum++;
     print(i);
-
   }
+
 }
